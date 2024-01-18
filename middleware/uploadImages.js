@@ -32,6 +32,4 @@ const uploadPhoto = multer({
   limits: { fileSize: 100000000 },
 });
 
-
-
 module.exports = { uploadPhoto };
